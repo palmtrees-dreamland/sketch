@@ -11,6 +11,7 @@ body {
   align-items: center;
   width: 400px;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -19,4 +20,20 @@ body {
   justify-content: space-between;
   width: 500px;
   align-items: center;
+  margin-top: 20px;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 2px solid black;
+}
+
+.footer, button {
+  color: burlywood;
+  font-weight: bold;
+  background-color: brown;
+  border-radius: 10px;
+  font-size: 20px;
 }
